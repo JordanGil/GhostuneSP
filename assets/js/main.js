@@ -209,5 +209,15 @@
     });
   }
   window.addEventListener('load', aosInit);
-
 })();
+
+$( document ).ready(function() {
+  $('#vehicleTable').dataTable({
+    "ajax": 'vehicle_list.json',
+    dataType : 'jsonp',
+    "columnDefs": 
+    [{  
+      "data": "vehicle"
+    }]
+  });
+});
