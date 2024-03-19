@@ -47,9 +47,14 @@
     const selectBody = document.querySelector('body');
     const selectHeader = document.querySelector('#header');
     if (!selectHeader.classList.contains('scroll-up-sticky') && !selectHeader.classList.contains('sticky-top') && !selectHeader.classList.contains('fixed-top')) return;
-    window.scrollY > 100 ? selectBody.classList.add('scrolled') : selectBody.classList.remove('scrolled');
+    if(window.scrollY > 100){
+      selectBody.classList.add('scrolled');
+      $("#navLogo").addClass('logoscrolled');
+    }else{
+      selectBody.classList.remove('scrolled');
+      $("#navLogo").removeClass('logoscrolled');
+    }
   }
-
   document.addEventListener('scroll', toggleScrolled);
   window.addEventListener('load', toggleScrolled);
 

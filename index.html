@@ -45,7 +45,7 @@
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img class="glogo" src="assets/img/Horizontal-white.png" alt="">
+        <img id="navLogo" class="glogoHor" src="..." alt="">
       </a>
 
       <!-- Nav Menu -->
@@ -86,14 +86,16 @@
 
     <!-- Hero Section - Home Page -->
     <section id="hero" class="hero">
-
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+      <video autoplay muted loop id="heroVideo">
+        <source src="~/assets/ets.mp4" type="video/mp4">
+      </video>
+      <!-- <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in"> -->
 
       <div class="container">
         <div class="row">
           <div class="col-lg-10">
-            <h2 data-aos="fade-up" data-aos-delay="100">Supported Platforms</h2>
-            <p data-aos="fade-up" data-aos-delay="200">You can search below to see if your vehicle is capable of being reflashed.</p>
+            <h2 data-aos="fade-up" data-aos-delay="100">Beyond The Limits</h2>
+            <p data-aos="fade-up" data-aos-delay="200">Click the button below to find out if your vehicle is capable of being reflashed.</p>
           </div>
           <div class="col-lg-5">
             <form action="#vehicles" class="sign-up-form d-flex" data-aos="fade-up" data-aos-delay="300">
