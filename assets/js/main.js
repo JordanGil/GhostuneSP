@@ -219,6 +219,7 @@
 $( document ).ready(function() {
   $('#vehicleTable').dataTable({
     "ajax": 'vehicle_list.json',
+    responsive: true,
     dataType : 'jsonp',
     "columnDefs": 
     [{  
