@@ -23,8 +23,8 @@
   --background-color-rgb: 255, 255, 255;
   --default-color: #212529;
   --default-color-rgb: 33, 37, 41;
-  --accent-color: #e84545;
-  --accent-color-rgb: 232, 69, 69;
+  --accent-color: rgb(7,54,248);
+  --accent-color-rgb: 7,54,248;
   --heading-color: #32353a;
   --heading-color-rgb: 50, 53, 58;
   --contrast-color: #ffffff;
@@ -34,9 +34,9 @@
 /* Nav Menu Colors */
 :root {
   --nav-color: #3a3939;
-  --nav-hover-color: #e84545;
+  --nav-hover-color: rgb(7,54,248);
   --nav-dropdown-color: #3a3939;
-  --nav-dropdown-hover-color: #e84545;
+  --nav-dropdown-hover-color: rgb(7,54,248);
   --nav-dropdown-background-color: #ffffff;
 }
 
@@ -152,7 +152,7 @@ h6 {
   --background-color: #ffffff;
   --heading-color: #444444;
   --nav-color: #444444;
-  --nav-hover-color: #e84545;
+  --nav-hover-color: #461dc3;
   box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -183,7 +183,7 @@ section {
   --background-color: #ffffff;
   --heading-color: #444444;
   --nav-color: #444444;
-  --nav-hover-color: #d83535;
+  --nav-hover-color: #461dc3;
 }
 
 /*--------------------------------------------------------------
